@@ -1,0 +1,10 @@
+@font-face {
+    font-family: Pier;
+    src: url("./assets/fonts/PierSans-Regular.otf");
+}
+
+html {
+    background-color: #333;
+    color: white;
+    font-family: Pier, sans-serif;
+}
