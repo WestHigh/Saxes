@@ -3,8 +3,35 @@
     src: url("./assets/fonts/PierSans-Regular.otf");
 }
 
+* {
+    text-align: center;
+}
+
 html {
     background-color: #333;
     color: white;
     font-family: Pier, sans-serif;
+}
+
+.subheader {
+    font-size: 24px;
+}
+
+.navbar {
+    margin: 0 auto;
+    text-align: left;
+}
+
+.navbar-item {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.navbar-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-item a:hover {
+    
 }
