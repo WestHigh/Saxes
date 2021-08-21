@@ -1,6 +1,6 @@
 @font-face {
     font-family: Pier;
-    src: url("./assets/fonts/PierSans-Regular.otf");
+    src: url("../fonts/PierSans-Regular.otf");
 }
 
 * {
@@ -19,19 +19,31 @@ html {
 
 .navbar {
     margin: 0 auto;
-    text-align: left;
+    position: absolute;
+    transition: .2s ease-in-out;;
 }
 
 .navbar-item {
     display: inline-block;
-    margin: 0 10px;
+    margin-left: 10px;
+}
+.navbar-item:not(:last-child) {
+    margin-right: 10px;
 }
 
 .navbar-item a {
     color: white;
     text-decoration: none;
+    transition: color .2s ease-in-out;
 }
 
 .navbar-item a:hover {
-    
+    color: gold;
+}
+
+@media only screen and (max-width: 850px) {
+    .navbar {
+        float: left;
+        position:initial;
+    }
 }
