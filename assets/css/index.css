@@ -182,15 +182,16 @@ html {
 }
 
 @media only screen and (min-width: 2000px) {
-    .cards .card:not(.tenor) {
+    .cards .card.alto {
         flex: 0 1 19% !important;
     }
-    .cards .card.tenor {
+
+    .cards .card.leader, .cards .card.tenor {
         flex: 0 1 24% !important;
     }
 }
 
-@media only screen and (min-width: 1650px) and (max-width: 2000px) {
+@media only screen and (min-width: 1250px) and (max-width: 2000px) {
     .cards .card {
         flex: 0 1 24% !important;
     }
