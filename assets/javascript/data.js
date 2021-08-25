@@ -124,7 +124,10 @@ const saxes = {
             profile: "https://cdn.discordapp.com/avatars/509167169087733773/17a27361f87322b5288cfbc2f152baf4.png?size=256",
             badges: ["Alto Sax 2"],
             grade: "Freshman",
-            bio: "He also wrote this website from scratch in HTML, CSS, and JavaScript. The website was created on August 20th, 2021.",
+            bio: "He also wrote this website almost entirely from scratch in HTML, CSS, and JavaScript.<br /><br />\
+            Icons provided by <a target=\"_blank\" href=\"https://fontawesome.com/\">Fontawesome</a><br />\
+            Popout modals powered by <a target=\"_blank\" href=\"https://stephanwagner.me/jBox\">jBox</a><br /><br />\
+            This website was created on August 20th, 2021.",
             pronoun: "He"
         },
         {

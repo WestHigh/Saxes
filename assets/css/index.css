@@ -219,4 +219,8 @@ html {
 .bio {
     font-family: Orkney;
 }
+.bio a {
+    text-decoration: none;
+    color: #00bbff;
+}
 /* END MISC */
