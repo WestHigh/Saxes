@@ -31,12 +31,12 @@ const saxes = {
                 last: "Murata"
             },
             profile: "assets/images/discord-yellow.png",
-            grade: "College Senior",
+            grade: "Middle-Aged Man",
             importantBadge: "Drum Major",
             sax: "Alto",
             badges: ["Alto Sax"],
             pronoun: "he",
-            bio: "is also a boomer and still hasn't added a profile picture to his Discord account.",
+            bio: "is also a boomer and still hasn't added a profile picture to his Discord account. He is a middle aged man that lives in his mom's basement.",
         },
         {
             name: {
