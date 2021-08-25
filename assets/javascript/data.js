@@ -31,7 +31,7 @@ const saxes = {
                 last: "Murata"
             },
             profile: "assets/images/discord-yellow.png",
-            grade: "Junior",
+            grade: "Freshman",
             importantBadge: "Drum Major",
             sax: "Alto",
             badges: ["Alto Sax"],
