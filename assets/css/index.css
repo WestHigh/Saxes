@@ -1,7 +1,12 @@
 /* IMPORTS */
 @font-face {
     font-family: Pier;
-    src: url("../fonts/PierSans-Regular.otf");
+    src: url("../fonts/PierSans\ Regular.otf");
+}
+
+@font-face {
+    font-family: Orkney;
+    src: url("../fonts/Orkney\ Light.otf");
 }
 
 /* ROOT */
@@ -209,3 +214,9 @@ html {
     }
 }
 /* END CARDS */
+
+/* MISC */
+.bio {
+    font-family: Orkney;
+}
+/* END MISC */

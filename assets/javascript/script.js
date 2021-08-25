@@ -44,7 +44,7 @@ function addCards(title, members, divId, type) {
             attach: `#${member.name.first}`,
             width: 600,
             theme: "TooltipDark",
-            content: `<img style="border-radius: 50%;" src="${member.profile}"><br /><br /><h1>${member.name.first} ${member.name.last}</h1><p>${formatDescription(member, type)}</p>`,
+            content: `<img style="border-radius: 50%;" src="${member.profile}"><br /><br /><h1>${member.name.first} ${member.name.last}</h1><p class="bio">${formatDescription(member, type)}</p>`,
         });
     });
 }
@@ -53,13 +53,13 @@ function formatDescription(member, type) {
     let str;
     if (type === "leader") {
         str = `${member.name.first} ${member.name.last} is a ${member.grade} and is the West High Entertainment Unit ${member.importantBadge} for the 2021 - 2022 school year. \
-        ${member.pronoun[0].toUpperCase() + member.pronoun.slice(1)} plays ${member.sax} sax.`
+        ${member.pronoun[0].toUpperCase() + member.pronoun.slice(1)} plays ${member.sax} sax${member.bio ? ", and " : "."}`
     } else if (type === "tenor") {
         str = `${member.name.first} ${member.name.last} is a ${member.grade} and plays Tenor sax for the West High Entertainment Unit.`
     } else if (type === "alto") {
         let part = member.badges[0];
         str = `${member.name.first} ${member.name.last} is a ${member.grade} and plays Alto sax (part ${part[part.length - 1]}) for the West High Entertainment Unit.`
     }
-    str = member.notes ? str + ` ${member.notes}` : str;
+    str = member.bio ? str + ` ${member.bio}` : str;
     return str;
 }
