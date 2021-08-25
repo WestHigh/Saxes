@@ -178,7 +178,7 @@ const saxes = {
             profile: "https://cdn.discordapp.com/avatars/668945228731777056/9d9ff181705ebfb1a44f6510dd6a1bf8.png?size=4096",
             badges: ["Alto Sax 2"],
             grade: "Freshman",
-            bio: "He is addicted to Genshin Impact most of the time, and posts a lot of sus memes in the WHEU Saxes Discord.",
+            bio: "He also posts a lot of reeeally sus memes on Discord.",
             pronoun: "He"
         },
         {

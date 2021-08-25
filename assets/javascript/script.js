@@ -52,7 +52,7 @@ function addCards(title, members, divId, type) {
 function formatDescription(member, type) {
     let str;
     if (type === "leader") {
-        str = `${member.name.first} ${member.name.last} is a ${member.grade} and is the West High Entertainment Unit ${member.importantBadge} for the 2021 - 2022 school year. \
+        str = `${member.name.first} ${member.name.last} is a ${member.grade} and is the WHEU ${member.importantBadge} for the 2021 - 2022 school year. \
         ${member.pronoun[0].toUpperCase() + member.pronoun.slice(1)} plays ${member.sax} sax${member.bio ? ", and " : "."}`
     } else if (type === "tenor") {
         str = `${member.name.first} ${member.name.last} is a ${member.grade} and plays Tenor sax for the West High Entertainment Unit.`
