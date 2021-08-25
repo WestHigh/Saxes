@@ -36,7 +36,7 @@ const saxes = {
             sax: "Alto",
             badges: ["Alto Sax"],
             pronoun: "he",
-            bio: "is also a boomer and still hasn't added a profile picture to his Discord account. He is a middle aged man that lives in his mom's basement.",
+            bio: "is also a boomer and still hasn't added a profile picture to his Discord account. Again, he is a middle aged man, and he lives in his mom's basement.",
         },
         {
             name: {
